@@ -5,7 +5,7 @@ import math
 # Crea una clase `Libro` que tenga dos atributos: `titulo` y `autor`.
 # Además, debe tener un método `mostrar_informacion` que imprima "Título: [titulo], Autor: [autor]".
 
-class Book:
+class Libro:
     def __init__(self, title, author):
         self.title = title
         self.author = author 
@@ -14,7 +14,7 @@ class Book:
         print(f"Title: {self.title}, Author: {self.author}")
     pass
 
-my_book = Book(title="Divae SHams" , author="Rumi")
+my_book = Libro(title="Divae SHams" , author="Rumi")
 
 my_book.show_information()
 
