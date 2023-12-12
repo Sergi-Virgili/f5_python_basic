@@ -10,13 +10,13 @@ class Libro:
         self.title = title
         self.author = author 
         
-    def show_information(self):
+    def mostrar_informacion(self):
         print(f"Title: {self.title}, Author: {self.author}")
     pass
 
 my_book = Libro(title="Divae SHams" , author="Rumi")
 
-my_book.show_information()
+my_book.mostrar_informacion()
 
 # Ejercicio 2: Herencia
 # Crea una clase `Vehiculo` con atributos `marca` y `modelo`.
