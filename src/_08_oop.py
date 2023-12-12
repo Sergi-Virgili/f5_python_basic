@@ -15,7 +15,6 @@ class Libro:
     pass
 
 my_book = Libro(title="Divae SHams" , author="Rumi")
-
 my_book.mostrar_informacion()
 
 # Ejercicio 2: Herencia
