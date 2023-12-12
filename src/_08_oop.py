@@ -6,7 +6,16 @@ import math
 # Además, debe tener un método `mostrar_informacion` que imprima "Título: [titulo], Autor: [autor]".
 
 class Libro:
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author 
+        
+    def mostrar_informacion(self):
+        print(f"Title: {self.title}, Author: {self.author}")
     pass
+
+my_book = Libro(title="Divae SHams" , author="Rumi")
+my_book.mostrar_informacion()
 
 # Ejercicio 2: Herencia
 # Crea una clase `Vehiculo` con atributos `marca` y `modelo`.
