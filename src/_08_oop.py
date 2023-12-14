@@ -87,14 +87,20 @@ class Forma:
     def area(self):
         pass
     
-class Circulo:
+class Circulo(Forma):
     def __init__(self, radio):
         self.radio = radio
 
     def area(self):
         return math.pi * self.radio**2
+    
+    def make_resizable(self):
+        def resize(new_size):
+            self.radio = new_size
+        
+        self.resize = resize
 
-class Cuadrado:
+class Cuadrado(Forma):
     def __init__(self, lado):
         self.lado = lado
 
