@@ -17,7 +17,7 @@ Para configurar el entorno de desarrollo y ejecutar el proyecto, sigue los sigui
 
 ```bash
 # Haz un Fork del repositorio y clona desde tu cuenta de github
-git clone <you-forked-repo>
+git clone <your-forked-repo>
 
 # Navegar al directorio del proyecto
 cd f5_python_basic
