@@ -16,8 +16,8 @@ Para ejecutar el proyecto, necesitas tener instalado:
 Para configurar el entorno de desarrollo y ejecutar el proyecto, sigue los siguientes pasos:
 
 ```bash
-# Clonar el repositorio
-git clone https://github.com/Sergi-Virgili/f5_python_basic.git
+# Haz un Fork del repositorio y clona desde tu cuenta de github
+git clone <you-forked-repo>
 
 # Navegar al directorio del proyecto
 cd f5_python_basic
