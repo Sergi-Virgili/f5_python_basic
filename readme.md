@@ -42,7 +42,13 @@ Para ejecutar los test, sigue los siguientes pasos:
 # Navegar al directorio del proyecto
 cd f5_python_basic
 
-# Ejecutar los test
+# Ejecutar todos los tests
 pytest
+
+# Ejecutar un archivo de test
+pytest test_example.py
+
+# Ejecutar un test único
+pytest test_example.py::test_my_function
 ```
 
